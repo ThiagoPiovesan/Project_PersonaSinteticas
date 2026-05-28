@@ -1,0 +1,224 @@
+{
+  "metadata": {
+    "algoritmo": "KMeans",
+    "n_clusters": 2,
+    "silhouette_score": 0.0963,
+    "calinski_harabasz": 334.71,
+    "davies_bouldin": 2.9279,
+    "total_amostras": 3000,
+    "data_geracao": "2026-05-27T22:05:28.083363"
+  },
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "tamanho": 1273,
+      "percentual": 42.4,
+      "numericas": {
+        "ticket_medio": {
+          "media": 122.07,
+          "mediana": 122.87,
+          "std": 40.45,
+          "min": 10.0,
+          "max": 253.1
+        },
+        "qtd_itens": {
+          "media": 4.07,
+          "mediana": 4.0,
+          "std": 1.91,
+          "min": 1,
+          "max": 12
+        },
+        "idade": {
+          "media": 44.1,
+          "mediana": 44.0,
+          "std": 15.4,
+          "min": 18,
+          "max": 71
+        }
+      },
+      "categoricas": {
+        "canal_preferido": {
+          "moda": "loja_fisica",
+          "moda_pct": 25.1,
+          "distribuicao": {
+            "loja_fisica": 25.1,
+            "ecommerce": 19.2,
+            "parceiros": 18.8,
+            "whatsapp": 18.6,
+            "app": 18.3
+          }
+        },
+        "categoria_favorita": {
+          "moda": "bebidas",
+          "moda_pct": 20.7,
+          "distribuicao": {
+            "bebidas": 20.7,
+            "snacks": 18.0,
+            "higiene": 15.9,
+            "mercearia": 15.6,
+            "limpeza": 15.4,
+            "laticinios": 14.4
+          }
+        },
+        "regiao": {
+          "moda": "sudeste",
+          "moda_pct": 24.0,
+          "distribuicao": {
+            "sudeste": 24.0,
+            "norte": 20.3,
+            "centro_oeste": 20.0,
+            "sul": 19.0,
+            "nordeste": 16.7
+          }
+        },
+        "frequencia_compra": {
+          "moda": "semanal",
+          "moda_pct": 56.5,
+          "distribuicao": {
+            "semanal": 56.5,
+            "quinzenal": 43.5
+          }
+        },
+        "pagamento": {
+          "moda": "credito",
+          "moda_pct": 22.0,
+          "distribuicao": {
+            "credito": 22.0,
+            "carteira_digital": 20.6,
+            "boleto": 20.5,
+            "debito": 18.5,
+            "pix": 18.4
+          }
+        },
+        "genero": {
+          "moda": "masculino",
+          "moda_pct": 27.1,
+          "distribuicao": {
+            "masculino": 27.1,
+            "feminino": 25.3,
+            "outro": 24.0,
+            "nao_informado": 23.6
+          }
+        },
+        "faixa_etaria": {
+          "moda": "25-40",
+          "moda_pct": 28.8,
+          "distribuicao": {
+            "25-40": 28.8,
+            "55-70": 28.0,
+            "40-55": 27.0,
+            "18-25": 13.4,
+            "70+": 2.8,
+            "<18": 0.0
+          }
+        }
+      }
+    },
+    {
+      "cluster_id": 1,
+      "tamanho": 1727,
+      "percentual": 57.6,
+      "numericas": {
+        "ticket_medio": {
+          "media": 121.63,
+          "mediana": 121.82,
+          "std": 39.67,
+          "min": 10.0,
+          "max": 249.04
+        },
+        "qtd_itens": {
+          "media": 4.03,
+          "mediana": 4.0,
+          "std": 1.99,
+          "min": 1,
+          "max": 12
+        },
+        "idade": {
+          "media": 45.0,
+          "mediana": 45.0,
+          "std": 15.3,
+          "min": 18,
+          "max": 71
+        }
+      },
+      "categoricas": {
+        "canal_preferido": {
+          "moda": "loja_fisica",
+          "moda_pct": 23.8,
+          "distribuicao": {
+            "loja_fisica": 23.8,
+            "app": 20.3,
+            "parceiros": 20.2,
+            "whatsapp": 17.8,
+            "ecommerce": 17.8
+          }
+        },
+        "categoria_favorita": {
+          "moda": "bebidas",
+          "moda_pct": 20.9,
+          "distribuicao": {
+            "bebidas": 20.9,
+            "snacks": 16.8,
+            "limpeza": 16.3,
+            "mercearia": 15.8,
+            "laticinios": 15.2,
+            "higiene": 15.0
+          }
+        },
+        "regiao": {
+          "moda": "sudeste",
+          "moda_pct": 22.9,
+          "distribuicao": {
+            "sudeste": 22.9,
+            "sul": 20.5,
+            "nordeste": 20.2,
+            "norte": 18.6,
+            "centro_oeste": 17.8
+          }
+        },
+        "frequencia_compra": {
+          "moda": "trimestral",
+          "moda_pct": 34.4,
+          "distribuicao": {
+            "trimestral": 34.4,
+            "bimestral": 34.1,
+            "mensal": 31.5
+          }
+        },
+        "pagamento": {
+          "moda": "credito",
+          "moda_pct": 24.3,
+          "distribuicao": {
+            "credito": 24.3,
+            "boleto": 20.0,
+            "carteira_digital": 19.5,
+            "debito": 18.1,
+            "pix": 18.1
+          }
+        },
+        "genero": {
+          "moda": "masculino",
+          "moda_pct": 30.6,
+          "distribuicao": {
+            "masculino": 30.6,
+            "feminino": 24.0,
+            "outro": 23.4,
+            "nao_informado": 22.1
+          }
+        },
+        "faixa_etaria": {
+          "moda": "55-70",
+          "moda_pct": 31.2,
+          "distribuicao": {
+            "55-70": 31.2,
+            "40-55": 27.9,
+            "25-40": 26.9,
+            "18-25": 12.1,
+            "70+": 1.8,
+            "<18": 0.0
+          }
+        }
+      }
+    }
+  ]
+}
